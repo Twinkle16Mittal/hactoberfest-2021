@@ -1,5 +1,3 @@
-//-----_/\_ _/\_ Jai Maa Bhagwati _/\_ _/\_ ----//
-//--------------Satyam Kumar aka Confused_aatma-------//
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -104,7 +102,6 @@ void mysol(){
     }
     ans = ans - sum ;
     ans *= 2 ;
-
     cout<<ans<<endl; 
 }
 
@@ -114,8 +111,6 @@ int main() {
     int t=1;
     cin>>t;
     while(t--){
-         mysol();
-      
+         mysol();  
     }
-   
 }
