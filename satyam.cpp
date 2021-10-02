@@ -27,27 +27,6 @@ const ll mod = 1e9+7;
 const ll INF = 1000000000000001;
 const string no="NO\n",yes="YES\n";
 
-/*Seive Code
-const int N = 100005;
-
-bool isprime[N];
-vector<ll>primes;
-
-void  primeseive(){
-    memset(isprime,true,sizeof(isprime));
-    isprime[0]=isprime[1]= false;
-    
-    for(ll p =2 ; p*p <= N; p++){
-        if(isprime[p]==true) {
-            for(ll i=p*p;i<=N;i+=p)
-                isprime[i] = false;
-        }
-    }
-    
-    for(ll i = 2 ;i <= N;i++) if(isprime[i]) primes.pb(i);
-    
-}
-*/
 ll min(ll a, ll b){
     return a<b ? a : b ;
 }
